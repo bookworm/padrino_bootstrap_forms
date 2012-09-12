@@ -24,7 +24,7 @@ module BootstrapForms
           if errors.present?
             errors.map { |e|
               "#{@options[:label] || human_attribute_name} #{e}"
-            }.join(", ")
+            }.join(', ')
           end
         end
       end
